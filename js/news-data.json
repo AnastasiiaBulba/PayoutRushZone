@@ -1,0 +1,52 @@
+{
+  "sections": [
+    {
+      "id": "game-updates-section",
+      "title": "Game Updates",
+      "items": [
+        {
+          "title": "New Building Types Added!",
+          "short": "Discover 15 brand new building types with unique merge mechanics and stunning designs.",
+          "full": "We're excited to announce the release of 15 brand new building types in Block Merge City! Each new building introduces unique merge mechanics, stunning visual designs, and strategic gameplay elements that will test your city planning skills like never before. From cozy cottages to magnificent skyscrapers, every building has its own personality and merging requirements. Prepare for fresh challenges, clever placement strategies, and the satisfaction of watching your city evolve into something truly spectacular. Can you master all the new building combinations and create the most impressive metropolis? Jump in and start building your dream city!",
+          "image": "img/new_block1.jpg",
+          "imageAlt": "New Building Types",
+          "date": "April 15, 2025"
+        },
+        {
+          "title": "Performance Optimization",
+          "short": "Enhanced graphics and smoother gameplay across all devices.",
+          "full": "Thanks to valuable feedback from our amazing players, we've optimized Block Merge City to run even smoother across phones, tablets, and desktops. Whether you're playing on an older device or the latest model, enjoy lightning-fast building placement, seamless merge animations, and reduced loading times. Your city-building experience is now more fluid and responsive, letting you focus on perfecting your urban planning strategy without any distractions. The isometric view now renders even more beautifully, making every building placement feel satisfying and visually appealing.",
+          "date": "May 8, 2025"
+        }
+      ]
+    },
+    {
+      "id": "city-diaries-section",
+      "title": "City Diaries",
+      "items": [
+        {
+          "title": "My First Mega City — How I created a metropolis with 100 buildings",
+          "short": "Building a city with 100 structures felt like an impossible dream — until it happened!",
+          "full": "In this diary entry, I share the exact strategy I used, how I managed my building placement, and the key moments where I created perfect merge opportunities to keep my city growing. Whether you're a beginner or looking to improve your high score, these insights will help you think ahead and make smarter urban planning decisions. From the initial small houses to the final magnificent skyscrapers, every building placement matters. Get ready to build bigger than ever!",
+          "date": "June 12, 2025"
+        },
+        {
+          "title": "Merge Mastery",
+          "short": "Top tips and tricks for creating the perfect merge every time.",
+          "full": "Merging buildings is the heart of Block Merge City. After dozens of hours playing and experimenting, I've uncovered some essential tips for new and experienced players alike:<br/><br/><ul><li>Always plan your building placement to create merge opportunities.</li><li>Look ahead to spot the best locations for larger buildings after merging.</li><li>Use strategic placement to create merge chains for massive score multipliers.</li><li>Practice timing to place buildings precisely and maximize merge efficiency.</li></ul>Master these techniques, and you'll be unstoppable on your way to building the ultimate city!",
+          "image": "img/new_block2.jpg",
+          "imageAlt": "Merge Mastery",
+          "date": "June 25, 2025"
+        },
+        {
+          "title": "City Planning Strategies",
+          "short": "Advanced techniques for optimal city layout and building placement.",
+          "full": "Creating the perfect city layout requires more than just random building placement. Here are some advanced strategies that will help you maximize your score and create the most efficient urban landscape:<br/><br/><ul><li>Start with a grid-based approach to ensure consistent spacing.</li><li>Reserve space for larger buildings that will appear after merges.</li><li>Create \"merge zones\" where similar buildings can easily combine.</li><li>Balance immediate merging with long-term city planning goals.</li></ul>These strategies will transform your gameplay and help you achieve higher scores than ever before!",
+          "image": "img/new_block3.jpg",
+          "imageAlt": "City Planning",
+          "date": "June 30, 2025"
+        }
+      ]
+    }
+  ]
+}

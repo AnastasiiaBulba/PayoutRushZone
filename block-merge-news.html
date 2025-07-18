@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=360, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>PayoutRushZone.com – Block Merge City News</title>
+    <meta
+      name="description"
+      content="Latest updates and news about Block Merge City - the addictive isometric puzzle game where you build and merge buildings to create the ultimate cityscape!"
+    />
+    <meta
+      name="keywords"
+      content="block merge city, news, updates, building game, puzzle game, city building"
+    />
+    <link rel="icon" type="image/x-icon" href="./img/icon512.jpg" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/block-merge-news.css" />
+    <script src="js/news-loader.js"></script>
+  </head>
+  <body>
+    <div id="header"></div>
+    <main class="container">
+      <div class="page-section" id="news-container">
+        <!-- News sections will be loaded from JSON -->
+      </div>
+      <div id="footer"></div>
+    </main>
+    <script src="js/main.js"></script>
+    <script src="js/cookie-banner.js"></script>
+    <script>
+      document.querySelectorAll(".news-section").forEach((section) => {
+        section.addEventListener("click", function (e) {
+          if (e.target.classList.contains("read-more-btn")) {
+            const item = e.target.closest(".news-item");
+            const full = item.querySelector(".news-item-full");
+            if (full.style.display === "none") {
+              full.style.display = "block";
+              e.target.textContent = "Show less";
+            } else {
+              full.style.display = "none";
+              e.target.textContent = "Read more";
+            }
+          }
+        });
+      });
+    </script>
+    <div id="cookie-banner" class="cookie-banner" style="display: none">
+      <div class="cookie-banner__text">
+        🏗️ We use cookies to enhance your Block Merge City experience. By
+        continuing to use our site, you agree to our use of cookies for optimal
+        gameplay.
+      </div>
+      <div class="cookie-banner__actions">
+        <button class="cookie-banner__accept">Accept All</button>
+        <a href="block-cookies.html" target="_blank" class="cookie-banner__link"
+          >Cookie Policy</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
